@@ -1,0 +1,93 @@
+:root {
+  --bg: #050505dd;
+  --bgSoft: #2d2b42;
+  --text: white;
+  --textSoft: #e5e5e5;
+  --btn: #3673fd;
+}
+
+* {
+  font-family: Mukta, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  /* background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/341813301/original/d601157ccb94e8f75cdbaabb50699ad5f3f27eaa/be-your-full-stack-developer-with-mern-stack.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1536px;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1536px) {
+  .container {
+    width: 1366px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  body {
+    /* background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/341813301/original/d601157ccb94e8f75cdbaabb50699ad5f3f27eaa/be-your-full-stack-developer-with-mern-stack.png");
+    background-size: cover; */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 640px;
+  }
+  body {
+    /* background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/341813301/original/d601157ccb94e8f75cdbaabb50699ad5f3f27eaa/be-your-full-stack-developer-with-mern-stack.png");
+    background-size: cover; */
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 475px;
+  }
+  body {
+    width: 475px;
+    /* background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/341813301/original/d601157ccb94e8f75cdbaabb50699ad5f3f27eaa/be-your-full-stack-developer-with-mern-stack.png");
+    background-size: cover; */
+  }
+}

@@ -1,0 +1,52 @@
+.container {
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-grow: 1;
+  flex-basis: 1;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.063);
+  border: 20px solid #2073c53f;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 103%;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 103%;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 468px) {
+  .container {
+    width: 133%;
+  }
+  .logo {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}

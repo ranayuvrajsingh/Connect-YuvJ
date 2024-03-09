@@ -1,0 +1,30 @@
+.footer {
+  /* height: 100; */
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 27%;
+  color: gray;
+}
+
+.logo {
+  font-size: bold;
+}
+.text {
+  font-size: 16px;
+}
+@media screen and (width: 746px) {
+  .footer {
+    margin-top: 100vh;
+  }
+}
+@media screen and (width: 456px) {
+  .footer {
+    margin-top: 100vh;
+  }
+}
+@media screen and (width: 746px) {
+  .footer {
+    margin-top: 100vh;
+  }
+}

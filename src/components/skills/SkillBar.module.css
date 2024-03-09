@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 200px;
+}
+
+.skillContainer {
+  margin-bottom: 20px;
+  text-align: center;
+  top: 30%;
+  /* background-color: red; */
+}
+
+.skillBar {
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.skillFill {
+  height: 100%;
+  width: 60%; /* Adjust the width based on the skill level (percentage) */
+  /* background-color: #4caf50; */
+  border-radius: 8px;
+}
+
+.skillLabel {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 5px;
+}

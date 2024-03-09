@@ -1,0 +1,126 @@
+.infoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textContainer {
+  flex: 1;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-left: 40px;
+}
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.heroImg {
+  border-radius: 50%;
+  margin-left: 56%;
+}
+.liner {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.skillsContainer {
+  max-width: 56%;
+}
+.sidecontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 100px;
+}
+
+.nameh {
+  margin-bottom: 10px;
+  color: rgba(246, 22, 67, 0.941);
+}
+.workh {
+  margin-bottom: 10px;
+  color: rgba(221, 255, 0, 0.842);
+  text-align: center;
+}
+.exp {
+  margin-bottom: 10px;
+  color: red;
+  text-align: center;
+}
+.comp {
+  margin-bottom: 10px;
+  width: 50%;
+  color: rgba(248, 189, 10, 0.885);
+  text-align: center;
+}
+.para {
+  margin-bottom: 10px;
+  color: rgba(209, 209, 209, 0.747);
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 575px) {
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+  }
+  .heroImg {
+    display: none;
+  }
+  .textContainer {
+    min-width: 100%;
+  }
+  .sidecontainer {
+    display: flex;
+    /* flex-direction: column;
+     */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .comp {
+    width: 100%;
+  }
+  .para {
+    min-width: 115%;
+  }
+  .skillsContainer {
+    min-width: 70%;
+    left: 70px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .infoContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1201px) {
+}
+
+.skillsContainer {
+  background-color: rgba(192, 192, 192, 0.403);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 3px 4px 5px rgba(248, 189, 10, 0.816);
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+  top: -100px;
+  margin: auto;
+}
