@@ -13,7 +13,7 @@ const Page = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.h1}>
           {" "}
-          Hi ,I am{" "}
+          Hi , I am{" "}
           <p className={styles.name}>
             <Typewriter
               text={name}
@@ -46,7 +46,7 @@ const Page = () => {
         </div>
         <div className={styles.buttons}>
           <Link
-            href="https://drive.google.com/file/d/1yor_fmtDlowKZiMRG7H0m-rizJSLurT1/view"
+            href="https://drive.google.com/file/d/1GdFbB6S27CnfYTChV1m19WSa4mr5Vl0c/view?usp=sharing"
             target="_blank"
           >
             {" "}
