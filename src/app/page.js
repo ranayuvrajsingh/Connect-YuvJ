@@ -13,7 +13,7 @@ const Page = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.h1}>
           {" "}
-          Hi , I am{" "}
+          Hi, I am{" "}
           <p className={styles.name}>
             <Typewriter
               text={name}
