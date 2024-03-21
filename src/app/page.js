@@ -46,7 +46,7 @@ const Page = () => {
         </div>
         <div className={styles.buttons}>
           <Link
-            href="https://drive.google.com/file/d/13chTZ-b95N9beIs1N1oBkBQ1N9HHwv6Q/view?usp=sharing"
+            href="https://drive.google.com/file/d/1c4FXLKm2-2ALd6KwCSax-dqArFD9kwy4/view?usp=sharing"
             target="_blank"
           >
             {" "}
