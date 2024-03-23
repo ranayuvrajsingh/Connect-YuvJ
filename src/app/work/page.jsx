@@ -26,7 +26,7 @@ const Work = () => {
       <div className={styles.imgContainer}>
         <div className={`${styles["div"]} ${styles["content-overlay"]}`}>
           <h1 className={styles.text}>Stellar Styles</h1>
-          <Link href="https://stellarstyles.netlify.app/" target={"_blank"}>
+          <Link href="https://stellarstyles.vercel.app/" target={"_blank"}>
             {" "}
             <img className={styles.img3} src="/Ecoom.jpg" alt="Image" />
           </Link>
