@@ -28,7 +28,7 @@ const Work = () => {
           <h1 className={styles.text}>LoomCall</h1>
           <Link href="https://loomcall.vercel.app/" target={"_blank"}>
             {" "}
-            <img className={styles.img3} src="/loomcall-vercel-app.png" alt="Image" />
+            <img className={styles.img3} src="/loomcall.png" alt="Image" />
           </Link>
           <div
             className={`${styles["content-details"]} ${styles["fadeIn-top"]} ${styles["fadeIn-right"]}`}
