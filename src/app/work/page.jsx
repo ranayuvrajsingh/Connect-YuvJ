@@ -24,6 +24,16 @@ const Work = () => {
   return (
     <>
       <div className={styles.imgContainer}>
+         <div className={`${styles["div"]} ${styles["content-overlay"]}`}>
+          <h1 className={styles.text}>LoomCall</h1>
+          <Link href="https://loomcall.vercel.app/" target={"_blank"}>
+            {" "}
+            <img className={styles.img3} src="/loomcall-vercel-app.png" alt="Image" />
+          </Link>
+          <div
+            className={`${styles["content-details"]} ${styles["fadeIn-top"]} ${styles["fadeIn-right"]}`}
+          ></div>
+        </div>
         <div className={`${styles["div"]} ${styles["content-overlay"]}`}>
           <h1 className={styles.text}>Stellar Styles</h1>
           <Link href="https://stellarstyles.vercel.app/" target={"_blank"}>
